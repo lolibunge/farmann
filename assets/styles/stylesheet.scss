@@ -1,5 +1,15 @@
 @import '~payload/scss';
 
 .eyebrow {
-    background: #d60b0b!important;
+    background: rgb(190, 18, 155)!important;
+    padding-left: 30px;
+}
+.eyebrow , .eyebrow a , .eyebrow svg, .eyebrow  .icon--chevron .stroke , .nav .icon--chevron .stroke, .nav__label, .icon--logout .stroke {
+    color: #fff!important;
+    stroke: #fff!important;
+}
+
+html, .nav a {
+    background: #be139b;
+    color: #fff!important;
 }
